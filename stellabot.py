@@ -64,9 +64,6 @@ class Bot(commands.Bot):
             # Make !viewtime
             author = message.author.name  # Set author = to channels username
 
-            if message.content.startswith('!dire'):
-                await message.channel.send(f'Hello, {author}! DIRE IS A BITCH')
-
             if message.content.startswith('!gamba'):
                 # Split the message content by space to extract the amount
                 parts = message.content.split(maxsplit=1)
