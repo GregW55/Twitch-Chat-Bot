@@ -10,11 +10,11 @@ from spotipy.oauth2 import SpotifyOAuth
 
 #
 # Spotify api credentials
-S_CLIENT_ID = '7e3971a89c5c4b8b8a0fd94048f4c596'
-S_CLIENT_SECRET = '6f81c7f237754880a86631d3a950a98c'
+S_CLIENT_ID = 'YOUR CLIENT ID
+S_CLIENT_SECRET = 'YOUR CLIENT SECRET'
 REDIRECT_URI = 'http://localhost:8888/callback'
 SCOPE = 'user-modify-playback-state user-read-currently-playing'
-#s_username = 'bhf3gz2xsx6xmp2zf1rh9m62i'
+#s_username = 'YOUR USERNAME'
 
 # Create Spotipy object with SpotifyOAuth
 sp_oauth = SpotifyOAuth(client_id=S_CLIENT_ID,
@@ -30,7 +30,7 @@ sp = spotipy.Spotify(auth_manager=sp_oauth)
 #
 class Bot(commands.Bot):
     def __init__(self):
-        super().__init__(token='oauth:xf9rrsjr2oa3sbndnvid9ri609vvb6', client_secret='16em9pgdq6t2n9z285wqup4gl65e9t', prefix='!', initial_channels=['Interstellar_OW'])
+        super().__init__(token='YOUR OAUTH TOKEN', client_secret='YOUR SECRET', prefix='!', initial_channels=['YOUR CHANNEL'])
         self.slot_machine = SlotMachine()  # Initialize the slot machine class
         self.trivia = Trivia()  # Initialize the trivia class
         if os.path.exists('data.json'):  # Check if data file exists
