@@ -46,22 +46,28 @@ super().__init__(token='YOUR OAUTH TOKEN', client_secret='YOUR SECRET', prefix='
 Data Files
 data.json: Stores viewers' watch time, stars, and correct trivia guesses.
 category_id_map.json: Stores the ID map for trivia categories.
+
 Commands
 Slot Machine
 !gamba <amount>: Gamble a specified amount of stars in the slot machine.
+
 Trivia
 !trivia <category>: Start a trivia game in the specified category.
 !categories: List available trivia categories.
 Answer the trivia question by typing the correct answer in the chat.
+
 Song Requests
 !SR <Spotify link>: Request a song from Spotify by providing a Spotify track link.
+
 Leaderboards
 !leaderboard stars: Show the top 5 users by stars.
 !leaderboard time: Show the top 5 users by watch time.
 !leaderboard trivia: Show the top 5 users by correct trivia answers.
+
 General
 !stars: Check the number of stars you have.
 !commands: List available commands.
+
 Additional Features and Planned Enhancements
 Duel Events: Allow users to duel each other in mini-games.
 Insults and Compliments: Randomly insult or compliment users with !insult or !compliment commands.
