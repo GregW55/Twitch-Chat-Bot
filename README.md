@@ -27,7 +27,7 @@ The bot tracks viewers' watch time and rewards them with stars over time.
 
 Clone the Repository:
 
-git clone https://github.com/yourusername/InterStellarsBot.git
+git clone https://github.com/GregW55/Twitch-Chat-Bot.git
 
 cd InterStellarsBot
 
